@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Filtering</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <label id='label' for="category-filter">Categories</label>
+  <select id="category-filter">
+    <option value="">All</option>
+    <option value="Home">Home</option>
+    <option value="Apparel">Apparel</option>
+    <option value="Electronics">Electronics</option>
+    <option value="Transportation">Transportation</option>
+    <option value="Electronics">Electronics</option>
+  </select>
+
+  <fieldset>
+    <legend>Tags</legend>
+    <label><input type="checkbox" name="tags" value="new"> New</label>
+    <label><input type="checkbox" name="tags" value="sale"> Sale</label>
+    <label><input type="checkbox" name="tags" value="eco-friendly"> Eco-friendly</label>
+    <label><input type="checkbox" name="tags" value="laptop"> Laptop</label>
+    <label><input type="checkbox" name="tags" value="phone"> Phone</label>
+    <label><input type="checkbox" name="tags" value="storage"> Storage</label>
+  </fieldset>
+
+  <div id="product-list"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

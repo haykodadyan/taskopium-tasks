@@ -1,0 +1,37 @@
+body {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+legend {
+    color: white;
+}
+
+fieldset {
+    margin: 40px;
+    background-color: rgb(128, 128, 128);
+    border-radius: 25px;
+    color: black;
+    border: 1px solid rgb(26, 26, 26);
+}
+
+div {
+    border: 1px solid black;
+    border-color: black;
+    border-radius: 20px;
+    margin: 20px;
+    color: white;
+}
+
+p {
+    margin-left: 20px;
+}
+
+#product-list {
+    background-color: rgb(30, 30, 30);
+}
+
+.product-element {
+    background-color: rgb(50, 50, 50);
+    color: rgb(168, 168, 168);
+}

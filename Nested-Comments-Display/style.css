@@ -1,0 +1,15 @@
+.comment {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 2px solid gainsboro;
+  border-radius: 20px;
+  box-shadow: 0 6px 9px gainsboro;
+}
+
+.comment p {
+  margin: 5px;
+}
+
+li {
+  list-style-type: none;
+}
