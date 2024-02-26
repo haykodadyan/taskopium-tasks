@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: rgb(50, 50, 50);
+  background-color: rgb(230, 230, 230);
+  font-family: 'Segoe UI';
+}
+
+header {
+  background-color: rgb(174, 17, 17);
+  color: rgb(230, 230, 230);
+  padding: 10px 0;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.header-inner {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 24px;
+}
+
+header h1 {
+  font-size: 40px;
+  margin: 0;
+}
+
+#content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+article {
+  background-color: rgb(255, 255, 255);
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+}
+
+article h2 {
+  font-size: 32px;
+  margin-top: 0;
+}
+
+article img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+article p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+aside {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+aside h2 {
+  font-size: 30px;
+  margin-top: 0;
+}
+
+aside ul {
+  list-style: none;
+  padding: 0;
+  width: 250px;
+  margin: 0;
+}
+
+aside ul li {
+  background-color: rgb(65, 65, 65);
+  margin-bottom: 10px;
+  border: 2px solid rgb(50, 50, 50);
+  border-radius: 5px;
+  box-shadow: 0 6px 6px rgb(50, 50, 50);
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+  background-color: rgb(30, 30, 30);
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+@media only screen and (min-width: 840px) {
+
+  #content-wrapper {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  aside {
+    margin-left: 0;
+  }
+
+  article {
+    margin-left: 20px;
+  }
+}
