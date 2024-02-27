@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>Form Builder</header>
+    <div id="form-builder">
+        <div class="form-field">
+            <select id="field-type">
+                <option value="text">Text</option>
+                <option value="email">Email</option>
+                <option value="password">Password</option>
+                <option value="dropdown">Dropdown</option>
+                <option value="checkbox">Checkbox</option>
+                <option value="radio">Radio Button</option>
+            </select>
+            <button id="add-btn">Add</button>
+        </div>
+        <div id="form-preview"></div>
+        <div class="form-field">
+            <button id="import-btn">Import</button>
+            <button id="export-btn">Export</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
